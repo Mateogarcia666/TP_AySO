@@ -1,0 +1,89 @@
+ls
+cd repogit
+repo_garciam/
+git status
+ls
+cd repo_garciam/
+git status
+git config --global user.email "mateoriver1@@gmail.com"
+git config --global user.name "Mateogarcia666"
+git status
+git commit -m "primer commit"
+exit
+ls
+ls -l
+ls -la
+man ls
+man man
+pwd
+cd repogit/
+ls
+git clone https://github.com/Mateogarcia666/repo_garciam.git
+ls
+cd repo_garciam/
+ls
+history
+history > historial.txt
+ls
+cat historial.txt 
+git status
+git add .
+git status
+git commit -m "primer commit"
+cd repogit
+git clone git@github.com:Mateogarcia666/repo_garciam.git
+ls
+cd repo_garciam
+.ssh
+ls -l
+echo "hola" > hola.txt
+ls -l
+cat hola.txt
+git status
+git add . 
+git status
+git commit -m "agrego hola"
+git status
+git push
+git push -u origin main
+git config--list
+git status
+cat/etc/passwd
+cat /etc/passwd
+cat /etc/passwd | grep -v nologin > archivo.txt
+sudo cat /etc/shadow
+ls
+lscpu | -i model head -n1 > info_proc.txt
+cat archivo1.txt
+ls
+cat hola.txt
+echo "chau" >> hola.txt
+cat hola.txt
+cd repogit
+cd TP_AySO/
+ls
+cat lista_ordenada.txt 
+git status
+git commit -m "“ADD: Listado de usuarios ordenada”
+"
+git status
+man tcpdump | grep 'dump traffic'
+tcpdump --help | grep 'dump'
+echo "tcpdump -i <interfaz> -w traffic_dump.pcap" > comando_dump_net
+echo "man tcpdump | grep 'dump traffic'" >> comando_dump_net
+git add .
+git commit "ADD: Comando para Capturar y analizar el tráfico de red "
+git status
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red”
+"
+cat <<EOF >> README.md
+Alumno: Garcia Mateo Nicolas
+División: 115
+Turno: Mañana
+EOF
+
+git status
+git add .
+git commit -m "docs: añadir información del alumno al README"
+git status
+history -a
