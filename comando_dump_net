@@ -1,0 +1,2 @@
+tcpdump -i <interfaz> -w traffic_dump.pcap
+man tcpdump | grep 'dump traffic'
